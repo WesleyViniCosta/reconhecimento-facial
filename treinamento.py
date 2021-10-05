@@ -22,7 +22,7 @@ def getImagemComId():
     return np.array(ids), faces
 
 ids, faces = getImagemComId()
-#print(ids)
+#print(faces)
 
 print("Treinando...")
 eigenface.train(faces, ids)
